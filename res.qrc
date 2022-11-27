@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/administrator.jpg</file>
+        <file>image/background_1.jpeg</file>
+        <file>image/library.jpg</file>
+        <file>image/library2.jpg</file>
+        <file>image/query.jpg</file>
+        <file>image/login.PNG</file>
+        <file>image/pblogin.PNG</file>
+        <file>image/捕获.PNG</file>
+        <file>image/cover.jpeg</file>
+        <file>image/cover.PNG</file>
+    </qresource>
+</RCC>

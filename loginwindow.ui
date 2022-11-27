@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginWindow</class>
+ <widget class="QWidget" name="loginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1738</width>
+    <height>853</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="user">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>260</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pwd">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>320</y>
+     <width>381</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1738</width>
+     <height>855</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/login.PNG);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblogin">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>410</y>
+     <width>380</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/image/pblogin.PNG);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>user</zorder>
+  <zorder>pwd</zorder>
+  <zorder>pblogin</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
